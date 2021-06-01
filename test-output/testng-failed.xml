@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.bussinessscripts.SampleTest"/>
+      <class name="com.bussinessscripts.SampleTestTwo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12006" started-at="2021-05-31T12:47:49Z" finished-at="2021-05-31T12:48:01Z">
+  <suite name="Suite" duration-ms="33525" started-at="2021-06-01T09:02:02Z" finished-at="2021-06-01T09:02:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12006" started-at="2021-05-31T12:47:49Z" finished-at="2021-05-31T12:48:01Z">
+    <test name="Test" duration-ms="33525" started-at="2021-06-01T09:02:02Z" finished-at="2021-06-01T09:02:36Z">
       <class name="com.bussinessscripts.SampleTest">
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.bussinessscripts.SampleTest@457e2f02]" name="testOne" duration-ms="11965" started-at="2021-05-31T18:17:49Z" finished-at="2021-05-31T18:18:01Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.bussinessscripts.SampleTest@5c7fa833]" name="testOne" duration-ms="19874" started-at="2021-06-01T14:32:02Z" finished-at="2021-06-01T14:32:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
       </class> <!-- com.bussinessscripts.SampleTest -->
+      <class name="com.bussinessscripts.SampleTestTwo">
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.bussinessscripts.SampleTestTwo@4678c730]" name="testTwo" duration-ms="13572" started-at="2021-06-01T14:32:22Z" finished-at="2021-06-01T14:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.bussinessscripts.SampleTestTwo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
