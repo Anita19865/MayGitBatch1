@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SampleTestTwo {
 	@Test
 	public static void testTwo() throws InterruptedException {
+ System.out.println("Person2 modifications");
 		WebDriverManager.chromedriver().setup();
 	    WebDriver driver = new ChromeDriver();	
 	    driver.manage().window().maximize();
